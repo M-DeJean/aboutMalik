@@ -1,0 +1,71 @@
+/*Styling the entire page*/
+* {
+  box-sizing: border-box;
+  text-align: center;
+  list-style-position: inside;
+}
+
+/*This applies to all headers*/
+header {
+  background-color: dimgray;
+  font-family: 'Quattrocento Sans', sans-serif;
+  padding: 20px;
+  margin: 0px;
+  height: 150px;
+  border: solid lightgray 1px;
+}
+/*Editing the header within the main section*/
+main header {
+  padding: 20px;
+  height: 30px;
+  padding-bottom: 50px;
+  padding-top: 1px;
+  font-size: small;
+}
+/*Apply these features to all paragraphs within the main seciton*/
+main p {
+  font-size: 20px;
+  text-align: center;
+  margin:0px 100px;
+  padding: 20px
+}
+/*Applies to every list*/
+li {
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+  padding-right: 40px
+}
+
+
+main {
+  background-color: lightslategray;
+  margin: 0;
+  border: solid lightgray;
+}
+/*Creating a circular image*/
+img {
+  border-radius: 50%;
+  margin: 20px;
+  border: solid lightgray;
+}
+/*Copyright footer*/
+footer {
+  background: black;
+  color: white;
+  margin: 0px;
+  padding: 20px;
+}
+/*Pseudo-classes for links*/
+a:link {
+  color: lightgreen;
+}
+a:visited {
+  color: darkseagreen
+}
+a:hover {
+  color: green
+}
+a:active{
+  color: darkolivegreen
+}
